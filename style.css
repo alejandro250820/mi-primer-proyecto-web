@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Estilo para los inputs y el botón */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Para que el padding no agrande el input */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* Estilo para la lista de gastos */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-left: 5px solid #27ae60;
+    display: flex;
+    justify-content: space-between;
+}
